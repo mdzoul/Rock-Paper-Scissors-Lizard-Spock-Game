@@ -2,12 +2,12 @@ import random
 from ascii_art import *
 from outcome import *
 
+tbbt()
 print("Are you up for a game of the classic [R]ock-[P]aper-[Sc]issors-[L]izard-[Sp]ock?\n")
 
 user_choice = input("Ready?\n").lower().capitalize()
 
-tbbt()
-print("Rock-Paper-Scissors-Lizard-Spock!")
+print("\nRock-Paper-Scissors-Lizard-Spock!")
 
 RPScLSp = ['R', 'P', 'Sc', 'L', 'Sp']
 
