@@ -7,6 +7,8 @@ Up for a game of the classic Rock Paper Scissors Lizard Spock?
 
 Try your best at winning the game and comment down below how many tries it took for you to win!
 
+*Best played on desktop to view ASCII art.*
+
 ## Credits
 
 Credits are due to:
