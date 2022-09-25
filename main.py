@@ -3,7 +3,7 @@ from ascii_art import *
 from outcome import *
 
 tbbt()
-print("""\33[3m~Best viewed on desktop to view ASCII art~\33[0m
+print("""\33[3m~Best played on desktop to view ASCII art~\33[0m
 Are you up for a game of the classic [R]ock-[P]aper-[Sc]issors-[L]izard-[Sp]ock?\n""")
 
 user_choice = input("Ready?\n").lower().capitalize()
