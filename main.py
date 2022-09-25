@@ -16,7 +16,7 @@ RPScLSp = ['R', 'P', 'Sc', 'L', 'Sp']
 if user_choice == 'R':
     print("\nYou chose \33[31mRock\33[0m!")
     rock()
-    print("\nVS")
+    vs()
     computer_choice = random.choice(RPScLSp)
     if computer_choice == 'R':
         rock()
@@ -47,7 +47,7 @@ if user_choice == 'R':
 elif user_choice == 'P':
     print("\nYou chose \33[33mPaper\33[0m!")
     paper()
-    print("\nVS")
+    vs()
     computer_choice = random.choice(RPScLSp)
     if computer_choice == 'R':
         rock()
@@ -78,7 +78,7 @@ elif user_choice == 'P':
 elif user_choice == 'Sc':
     print("\nYou chose \33[35mScissors\33[0m!")
     scissors()
-    print("\nVS")
+    vs()
     computer_choice = random.choice(RPScLSp)
     if computer_choice == 'R':
         rock()
@@ -109,7 +109,7 @@ elif user_choice == 'Sc':
 elif user_choice == 'L':
     print("\nYou chose \33[32mLizard\33[0m!")
     lizard()
-    print("\nVS")
+    vs()
     computer_choice = random.choice(RPScLSp)
     if computer_choice == 'R':
         rock()
@@ -140,7 +140,7 @@ elif user_choice == 'L':
 elif user_choice == 'Sp':
     print("\nYou chose \33[34mSpock\33[0m!")
     spock()
-    print("\nVS")
+    vs()
     computer_choice = random.choice(RPScLSp)
     if computer_choice == 'R':
         rock()
