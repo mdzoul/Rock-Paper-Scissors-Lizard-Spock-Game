@@ -210,4 +210,4 @@ Are you up for a game of the classic \33[31m[R]ock\33[0m-\33[33m[P]aper\33[0m-\3
             input("\nHit [Enter] to play again")
     
     else:
-        input("\n[Invalid input. Hit [Enter] to rerun.]")
+        input("\n\33[31mInvalid input. Hit [Enter] to rerun.\33[0m")

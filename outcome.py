@@ -1,11 +1,11 @@
 def win():
-    print("\nYou win!")
+    print("\nYou \33[1;32mWIN!\33[0m")
 
 def lose():
-    print("\nYou lose!")
+    print("\nYou \33[1;31mLOSE!\33[0m")
 
 def draw():
-    print("\nIt's a draw!")
+    print("\nIt's a \33[1;33mDRAW!\33[0m")
 
 def sc_p():
     print('\n"Scissors cuts Paper"')
