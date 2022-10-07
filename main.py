@@ -11,7 +11,8 @@ while True:
     print("""
                               \33[1;3m---Best played on desktop in full screen to view ASCII art---\33[0m
     
-Are you up for a game of the classic \33[31m[R]ock\33[0m-\33[33m[P]aper\33[0m-\33[35m[Sc]issors\33[0m-\33[32m[L]izard\33[0m-\33[34m[Sp]ock\33[0m?\n""")
+Are you up for a game of the classic 
+\33[31m[R]ock\33[0m-\33[33m[P]aper\33[0m-\33[35m[Sc]issors\33[0m-\33[32m[L]izard\33[0m-\33[34m[Sp]ock\33[0m?\n""")
     
     user_choice = input("Ready?\n").lower().capitalize()
     
