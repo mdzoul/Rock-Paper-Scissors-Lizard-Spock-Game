@@ -1,8 +1,11 @@
 import random
 import time
-from replit import clear
+import os
 from ascii_art import *
 from outcome import *
+
+def clear():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 while True:
     clear()
